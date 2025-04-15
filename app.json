@@ -20,7 +20,7 @@
     "SESSION_ID": {
       "description": "your session id. get session here https://silva-session-selector.vercel.app/",
       "required": true,
-      "value": ""
+      "value": "CLOUD-AI~5FI0HarD#WNEV0T2d655UJxx8yBL4RBTptu6PPV2cY1_qgDYhXzE"
     },
     "MODE": {
       "description": "mode public or private",
@@ -40,17 +40,17 @@
     "autoRead": {
       "description": "make it true or false if you want bot to read messages leave it blank if you don't want it to read messages",
       "required": false,
-      "value": ""
+      "value": "false"
       },
     "WELCOME_MSG": {
       "description": "make it true or false if you want bot to Send welcome message when someone joins a group",
       "required": false,
-      "value": ""
+      "value": "false"
       },
     "GOODBYE_MSG": {
       "description": "make it true or false if you want bot to Send goodbye message when someone leaves a group",
       "required": false,
-      "value": ""
+      "value": "false"
       },
     "AUTO_RECORDING": {
       "description": "make it true or false. true to activate false to deactivate",
@@ -69,18 +69,18 @@
        },
     "AUTO_STATUS_LIKE_EMOJI": {
       "description": "customize to any emoji you need 💚",
-      "required": false,
+      "required": true,
       "value": "🦋"
        },
     "STATUS_REPLY": {
       "description": "make it true or false. true to activate false to deactivate",
       "required": true,
-      "value": "false"
+      "value": "true"
        },
     "STATUS_MSG": {
       "description": "custmize with your message",
       "required": false,
-      "value": "SILVA MD BOT SUCCESSFULLY VIEWED YOUR STATUS 💖💚"
+      "value": "Asad Malik SUCCESSFULLY VIEWED YOUR STATUS 💖💚"
     },
     "antidelete": {
       "description": "bot will forward deleted messages if you make it true",
